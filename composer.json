@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "behat/behat": "~3.0",
+    "behat/mink": "1.6.*",
+    "behat/mink-extension": "*",
+    "behat/mink-goutte-driver": "*",
+    "behat/mink-selenium2-driver": "*"
+  },
+  "autoload":{
+    "psr-4":{
+      "": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ]
+}
